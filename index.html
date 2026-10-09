@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obediah C.S Boakai - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="top-nav">
+      <span class="brand">Obediah C.S Boakai | Digital Resume</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <img src="profile.jpg" alt="Portrait of Obediah C.S Boakai" class="profile-pic">
+      <div class="hero-text">
+        <p class="hello">Hello, I'm</p>
+        <h1>Obediah C.S <span class="accent">Boakai</span></h1>
+        <p class="biodata"><strong>IT Support Specialist | System Administration (Student)</strong><br>
+          Location: Monrovia, Liberia</p>
+        <p class="intro">I'm a passionate IT professional and student at Starz University, currently pursuing a Bachelor in Information Technology with emphasis in System Administration. I focus on building practical skills, solving real-world problems, and growing my career in the tech industry.</p>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="welcome-bar">
+      <p id="profile-message">Welcome to my digital resume.</p>
+      <button type="button" onclick="showMessage()">Show Message</button>
+    </div>
+
+    <section id="about" class="resume-section">
+      <h2>Profile</h2>
+      <p>I'm an IT student and support specialist with a strong interest in system administration, networking, cybersecurity, and digital systems. I enjoy learning new technologies, building practical solutions, and contributing to projects that create real impact, especially in Liberia's digital future.</p>
+    </section>
+
+    <section id="education" class="resume-section">
+      <h2>Education</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>School</th>
+            <th>Degree</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Starz University, Airfield, Sinkor, Monrovia, Liberia</td>
+            <td>Bachelor in Information Technology (System Administration)</td>
+            <td>2024 – Present</td>
+          </tr>
+          <tr>
+            <td>Carolyn Mesick School System</td>
+            <td>High School Diploma</td>
+            <td>2018 – 2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="experience" class="resume-section">
+      <h2>Work Experience</h2>
+      <article>
+        <h3>IT Support Specialist</h3>
+        <p>Creative World Digital Arts Space, Camp Johnson Road, Monrovia, Liberia | 2024 – Present</p>
+        <ul>
+          <li>Provide technical support to users</li>
+          <li>Maintain systems and networks</li>
+          <li>Troubleshoot hardware and software issues</li>
+          <li>Assist with digital projects and platforms</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills" class="resume-section">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Linux &amp; Virtualization:</strong> Ubuntu, CentOS, VMware, VirtualBox</li>
+        <li><strong>Windows Server &amp; Active Directory:</strong> AD, DNS, DHCP, User &amp; Group Management</li>
+        <li><strong>Networking &amp; Cybersecurity:</strong> TCP/IP, Switches, Routers, Scanning, Hardening</li>
+        <li><strong>Web &amp; Databases:</strong> HTML, CSS, JavaScript, MySQL, SQL</li>
+        <li><strong>Tools:</strong> Git, VS Code, Nessus</li>
+      </ul>
+      <h3>Other Skills</h3>
+      <ul class="tags">
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Communication</li>
+        <li>Time Management</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="resume-section">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Server Setup &amp; Configuration</h3>
+          <p>Installed and configured Linux servers, set up user management, and ensured system security and updates.</p>
+        </article>
+        <article class="project-card">
+          <h3>Network Monitoring System</h3>
+          <p>Designed a simple network monitoring setup using open-source tools to track performance and uptime.</p>
+        </article>
+        <article class="project-card">
+          <h3>Community Website (JSP/PHP)</h3>
+          <p>Developed a community-based website using JSP and PHP to connect and share information within the community.</p>
+        </article>
+        <article class="project-card">
+          <h3>Vulnerability Assessment</h3>
+          <p>Used Nessus/OpenVAS to scan and identify vulnerabilities in a local network environment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="goals" class="resume-section">
+      <h2>Certifications &amp; Goals</h2>
+      <ul>
+        <li>Currently studying System Administration at Starz University</li>
+        <li>Building hands-on experience in server management and network monitoring</li>
+        <li>Aspiring to become a certified System Administrator (Linux/Windows)</li>
+        <li>Goal: Contribute to Liberia's digital growth and cyber resilience</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="resume-section">
+      <h2>Contact Me</h2>
+      <p>I'm open to internships, freelance opportunities, collaborations, and exciting IT projects.</p>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@email.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="mailto:obediahboakai292@gmail.com">Email Me</a></p>
+    <p class="copyright">&copy; 2026 Obediah C.S Boakai</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
